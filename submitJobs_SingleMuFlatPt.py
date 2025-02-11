@@ -8,16 +8,15 @@ from python.utilityFunctions import *
 genFragmentsDirectory = "Configuration/GenProduction/python/GenFragments/"
 generator_fragment=genFragmentsDirectory+"DoubleMuPt1to100Eta24_cfi.py"
 
-era = "Run2023"
+era = "Run2029"
 workAreaName = "tasks_SingleMuFlatPt"
 eventsPerJob = 4000
 numberOfJobs = 500
 outLFNDirBase = "/store/user/akalinow/Data/SingleMu/"
-#storage_element="T2_PL_Swierk"
 storage_element="T3_CH_CERNBOX"
-outputDatasetTag = "13_1_0_03_10_2023"
+outputDatasetTag = "14_2_1_11_02_2025"
 withPileUp = False
-withReco = True
+withReco = False
 runLocal = True
 turnOffG4Secondary = False
 

@@ -37,7 +37,7 @@ git cms-addpkg L1Trigger/L1TMuon
 git clone git@github.com:cms-data/L1Trigger-L1TMuon L1Trigger/L1TMuon/data1
 mv L1Trigger/L1TMuon/data1/* L1Trigger/L1TMuon/data 
 cd 1Trigger/L1TMuon/data/ omtf_config 
-scp lxplus.cern.ch:/afs/cern.ch/work/k/kbunkow/public/CMSSW/cmssw_14_x_x/CMSSW_14_2_0_pre2/src/L1Trigger/L1TMuon/data/omtf_config ExtrapolationFactors_ExtraplMB1nadMB2_R_EtaValueP1Scale_t35.xml ./
+scp lxplus.cern.ch:/afs/cern.ch/work/k/kbunkow/public/CMSSW/cmssw_14_x_x/CMSSW_14_2_0_pre2/src/L1Trigger/L1TMuon/data/omtf_config/ExtrapolationFactors_ExtraplMB1nadMB2_R_EtaValueP1Scale_t35.xml ./
 scp lxplus.cern.ch:/afs/cern.ch/work/k/kbunkow/public/CMSSW/cmssw_14_x_x/CMSSW_14_2_0_pre2/src/L1Trigger/L1TMuon/data/omtf_config/lutNN_omtfRegression_v430_FP.xml ./
 scp lxplus.cern.ch:/afs/cern.ch/work/k/kbunkow/public/CMSSW/cmssw_14_x_x/CMSSW_14_2_0_pre2/src/L1Trigger/L1TMuon/data/omtf_config/Patterns_ExtraplMB1andMB2RFixedP_ValueP1Scale_DT_2_2_2_t35__classProb17_recalib2.xml ./
 scp lxplus.cern.ch:/afs/cern.ch/work/k/kbunkow/public/CMSSW/cmssw_14_x_x/CMSSW_14_2_0_pre2/src/L1Trigger/L1TMuon/data/omtf_config/muonMatcherHists_100files_smoothStdDev_withOvf.root ./

@@ -13,8 +13,8 @@ pileup_inputs = {
 #########################################
 #########################################
 eras_conditions = {
-    "Run2023":"--era Run3_2023  --conditions 131X_mcRun3_2023_realistic_v10 --geometry DB:Extended",
-    "Run2029":"--era Phase2C17I13M9  --conditions 131X_mcRun4_realistic_v7 --geometry Extended2026D99",
+    "Run2024":"--era Run3_2024  --conditions 142X_mcRun3_2025_realistic_v4 --geometry DB:Extended",
+    "Run2029":"--era Phase2C17I13M9  --conditions auto:phase2_realistic_T33 --geometry ExtendedRun4D110",
     }
 #########################################
 #########################################

@@ -1,3 +1,18 @@
+#11.02.2025
+cmsrel CMSSW_14_2_1_pre2 -n CMSSW_14_2_1_pre2_PhaseII
+cd CMSSW_14_2_1_pre2_PhaseII/src
+cmsenv
+git cms-init
+git clone -b devel_AK git@github.com:akalinow/usercode-OmtfAnalysis UserCode/
+mkdir -p Configuration/GenProduction/
+git clone git@github.com:cms-sw/genproductions.git Configuration/GenProduction
+mv  Configuration/GenProduction/genfragments Configuration/GenProduction/python
+rm -rf  Configuration/GenProduction/python/ThirteenTeV/DisappTrksAMSB/
+rm -rf  Configuration/GenProduction/python/ThirteenTeV/DelayedJets/
+rm -rf  Configuration/GenProduction/python/ThirteenTeV/DMSIMP_Extensions
+rm -f   Configuration/GenProduction/python/EightTeV/Exotica_HSCP_SIM_cfi.py
+scram b -j 8
+
 #08.02.2023
 
 cmsrel CMSSW_12_5_2_patch1

@@ -14,7 +14,7 @@ eventsPerJob = 4000
 numberOfJobs = 500
 outLFNDirBase = "/store/user/akalinow/Data/SingleMu/"
 storage_element="T3_CH_CERNBOX"
-outputDatasetTag = "14_2_1_11_02_2025"
+outputDatasetTag = "14_2_1_11_03_2025"
 withPileUp = False
 withReco = False
 runLocal = True
@@ -22,7 +22,7 @@ turnOffG4Secondary = False
 
 iPtTest = 0 
 signTest = 1
-etaRange = (-2.5,2.5)
+etaRange = (-2.5,2.5)# GMT  #(0.8, 1.3) #OMTF
 #########################################
 #########################################
 for iPt in range(0,3):

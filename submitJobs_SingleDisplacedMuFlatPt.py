@@ -14,19 +14,19 @@ eventsPerJob = 5000
 numberOfJobs = 10
 outLFNDirBase = "/store/user/akalinow/Data/SingleMu/"
 storage_element="T3_CH_CERNBOX"
-outputDatasetTag = "14_2_1_24_01_2025"
+outputDatasetTag = "14_2_1_13_03_2025"
 withPileUp = False
 withReco = False
-runLocal = True
+runLocal = False
 turnOffG4Secondary = False
 
-iPtTest = 0
+iPtTest = None
 signTest = 1
 etaRange = (-3.0,3.0)
 ##NOTE: displacement expressed in mm
-dxyRange = (0,100)
-LxyMax = 200
-LzMax = 100
+dxyRange = (0,1000)
+LxyMax = 2000
+LzMax = 1000
 #########################################
 #########################################
 for iPt in range(0,3):

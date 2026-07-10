@@ -8,13 +8,13 @@ from python.utilityFunctions import *
 genFragmentsDirectory = "Configuration/GenProduction/python/GenFragments/"
 generator_fragment=genFragmentsDirectory+"DoubleMuOneOverPt1to100Eta24_cfi.py"
 
-era = "Run2023"
+era = "Run2029"
 workAreaName = "tasks_SingleMuOneOverPt"
-eventsPerJob = 4000
+eventsPerJob = 7000
 numberOfJobs = 500
 outLFNDirBase = "/store/user/akalinow/Data/SingleMu/"
 storage_element="T3_CH_CERNBOX"
-outputDatasetTag = "13_1_0_03_10_2023"
+outputDatasetTag = "14_2_1_21_03_2025"
 withPileUp = False
 withReco = False
 runLocal = False
@@ -22,9 +22,9 @@ runLocal = False
 turnOffG4Secondary = False
 
 signTest = None
-#etaRange = (-2.5,2.5)
-#etaRange = (0.8,1.35)
-etaRange = (-1.35,-0.8)
+etaRange = (-2.5,2.5) #GMT
+#etaRange = (0.8,1.35) #OMTF
+#etaRange = (-1.35,-0.8) #OMTF
 #########################################
 #########################################
 for sign in range(-1,2,2):

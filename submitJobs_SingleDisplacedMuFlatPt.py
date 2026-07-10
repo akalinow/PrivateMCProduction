@@ -11,10 +11,10 @@ generator_fragment=genFragmentsDirectory+"DoubleDisplacedMuPt1to100Eta24Dxy0to10
 era = "Run2029"
 workAreaName = "tasks_SingleDisplacedMuFlatPt"
 eventsPerJob = 5000
-numberOfJobs = 10
+numberOfJobs = 100
 outLFNDirBase = "/store/user/akalinow/Data/SingleMu/"
 storage_element="T3_CH_CERNBOX"
-outputDatasetTag = "14_2_1_13_03_2025"
+outputDatasetTag = "14_2_1_10_06_2025"
 withPileUp = False
 withReco = False
 runLocal = False
@@ -22,11 +22,11 @@ turnOffG4Secondary = False
 
 iPtTest = None
 signTest = 1
-etaRange = (-3.0,3.0)
+etaRange = (-3,3)
 ##NOTE: displacement expressed in mm
 dxyRange = (0,1000)
-LxyMax = 2000
-LzMax = 1000
+LxyMax = 100
+LzMax = 100
 #########################################
 #########################################
 for iPt in range(0,3):

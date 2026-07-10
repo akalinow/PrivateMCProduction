@@ -55,7 +55,7 @@ def runCMSDriver(era, withPileUp, withReco, generator_fragment):
          premix_switches += "--procModifiers premix_stage2 --datamix PreMix "
          
     if era=="Run2023":
-        premix_switches += "--beamspot Realistic25ns13p6TeVEarly2023Collision "
+        premix_switches += "--beamspot  VtxSmearedRealistic "
         premix_switches += "--customise Configuration/DataProcessing/Utils.addMonitoring "
         premix_switches += "--customise UserCode/OmtfAnalysis/privateCustomizations.customize_outputCommands "  
 
